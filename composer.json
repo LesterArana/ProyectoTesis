@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^9.0",
+        "barryvdh/laravel-dompdf": "^2.2",
+        "maatwebsite/excel": "^3.1"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan key:generate"
+        ]
+    }
+}
